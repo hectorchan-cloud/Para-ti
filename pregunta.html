@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heart-container" id="hearts"></div>
+
+    <div class="card question-card" id="main-card">
+        <h1 id="question-text">¿Quieres ser mi San Valentín? ❤️</h1>
+        <p id="sub-text">Prometo que la distancia no será una excusa.</p>
+        
+        <div class="options">
+            <button id="btn-si" class="btn" onclick="celebrar()">¡SÍ! 😍</button>
+            <button id="btn-no" class="btn secondary">No 😢</button>
+        </div>
+    </div>
+
+    <div id="victory-screen" class="card" style="display: none;">
+        <h1>¡SABÍA QUE DIRÍAS QUE SÍ! 💖</h1>
+        <p>Eres lo mejor que me ha pasado.</p>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueGZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3/KztT2c4u8mYYUiMKdJ/giphy.gif" width="250">
+        <br><br>
+        <a href="index.html" class="btn">Volver al inicio</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
